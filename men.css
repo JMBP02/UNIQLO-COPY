@@ -1,0 +1,400 @@
+body{
+    font-family: Roboto Condensed, Arial;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.men-button{
+    position: relative;
+}
+
+.line{
+    position: absolute;
+    bottom: -1.3rem;
+    left: 0.2rem;
+}
+
+.main-header-section{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4.5rem;
+    z-index: 99;
+}
+
+.header-info-container{
+    display: flex;
+    align-items: center;
+    height: 4.5rem;
+    justify-content: space-between;
+
+}
+
+.left-logo-design{
+    width: 90px;
+}
+
+.left-logo-design:hover{
+    cursor: pointer;
+}
+
+.left-section{
+    margin-left: 5rem;
+    margin-right: 3rem;
+}
+
+.button-choose-container{
+    display: flex;
+    column-gap: 5rem;
+}
+
+
+.header-button-design{
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+}
+
+.header-button-design:hover{
+    cursor: pointer;
+}
+
+.right-section{
+    display: flex;
+    column-gap: 2.5rem;
+    margin-right: 6rem;
+}
+
+.right-image-design{
+    width: 1.1rem;
+}
+
+.right-image-design:hover{
+    cursor: pointer;
+}
+
+.three-buttons-container{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    z-index: 99;
+}
+
+.link1{
+    text-decoration: none;
+}
+
+.three-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    justify-content: space-between;
+}
+
+.button1{
+    padding: 10px 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.button2{
+    padding: 20px 20px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.button1, .button2{
+    cursor: pointer;
+}
+
+@media (max-width:767px) {
+    .header-button-design{
+        font-size: 0.8rem;
+    }
+    .button-choose-container{
+        column-gap: 0.5rem;
+    }
+    .left-section{
+        margin-left: 0.1rem;
+    }
+    .right-section{
+        margin-right: 0.5rem;
+        column-gap: 0.5rem;
+    }
+    .three-buttons{
+        width: 15rem;
+    }
+    .button1{
+        padding: 5px 5px;
+        border-radius: 20px;
+        width: 20px;
+    }
+    .button2{
+        padding: 15px 15px;
+        border-radius: 30px;
+        width: 20px;
+    }
+    .main-header-section{
+        height: 2rem;
+    }
+    
+    .header-info-container{
+        height: 2rem;
+    }
+    .left-logo-design{
+        width: 60px;
+    }
+    .line{
+        bottom: -0.9rem;
+        left: 0.009rem;
+    }
+    .right-image-design{
+        width: 0.8rem;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .header-button-design{
+        font-size: 1rem;
+    }
+    .button-choose-container{
+        column-gap: 4rem;
+    }
+    .left-section{
+        margin-left: 3rem;
+        margin-right: 1.5rem;
+    }
+    .right-section{
+        margin-right: 3rem;
+        column-gap: 1.5rem;
+    }
+    .three-buttons{
+        width: 25rem;
+    }
+    .button1{
+        padding: 10px 10px;
+        border-radius: 40px;
+        width: 20px;
+    }
+    .button2{
+        padding: 20px 20px;
+        border-radius: 40px;
+        width: 25px;
+    }
+    .main-header-section{
+        height: 4rem;
+    }
+    
+    .header-info-container{
+        height: 4rem;
+    
+    }
+    .line{
+        bottom: -1.1rem;
+    }
+    
+}
+
+
+.video-info{
+    position: absolute;
+    left: 6.5rem;
+    bottom: 20rem;
+    color: white;
+    font-size: 2rem;
+}
+
+.text2{
+    font-size: 1.3rem;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1, .image2{
+    width: 100%;
+    height: 100%;
+}
+
+.video-container-women{
+    margin-top: -5px;
+    position: relative;
+}
+
+.video1{
+    width: 100%;
+    height: 100%;
+}
+
+.image-container{
+    margin-top: -5px;
+    position: relative;
+}
+
+.image-info-container{
+    position: absolute;
+    bottom: 13rem;
+    left: 6.5rem;
+}
+
+.price-container{
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.clothes-name{
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 1rem;
+    text-shadow: 0.5px 0.5px black;
+}
+
+.clothes-name1{
+    font-size: 2rem;
+    color: white;
+    text-shadow: 0.5px 0.5px black;
+}
+
+.clothes-name2{
+    font-size: 2rem;
+    color: black;
+}
+
+.clothes-info{
+    font-size: 1.3rem;
+    color: white;
+    text-shadow: 0.5px 0.5px black;
+}
+
+.clothes-info1{
+    font-size: 1.3rem;
+    color: white;
+    margin-bottom: 1rem;
+    text-shadow: 0.5px 0.5px black;
+}
+
+.clothes-info2{
+    font-size: 1rem;
+    color: white;
+    margin-top: 1rem;
+    text-shadow: 0.5px 0.5px black;
+}
+
+.clothes-info3{
+    font-size: 1rem;
+    color: white;
+    margin-top: 1rem;
+    color: black;
+}
+
+.sale-price{
+    font-size: 2rem;
+    color: red;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+.real-price{
+    font-weight: bold;
+    align-content: end;
+    color: white;
+    text-shadow: 0.5px 0.5px black;
+}
+
+.clothes-offer{
+    font-size: 1rem;
+    color: red;
+}
+
+.double-info-container{
+    margin-bottom: 1rem;
+}
+
+@media (max-width:767px) {
+    .video-info{
+        font-size: 1rem;
+        left: 2rem;
+        bottom: 2rem;
+    }
+    .text2{
+        font-size: 0.8rem;
+    }
+    .image-info-container{
+        bottom: 2rem;
+        left: 2rem;
+    }
+    .clothes-name, .clothes-name1, .clothes-name2{
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+    }
+    .clothes-info, .clothes-info2, .clothes-info3{
+        font-size: 0.7rem;
+    }
+
+    .clothes-info1{
+        font-size: 0.7rem;
+        margin-bottom: 0.6rem;
+    }
+    .sale-price{
+        font-size: 1rem;
+    }
+
+    .clothes-offer{
+        font-size: 0.6rem;
+    }
+
+    .double-info-container{
+        margin-bottom: 0.6rem;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .video-info{
+        font-size: 1.5rem;
+        left: 3.5rem;
+        bottom: 3.5rem;
+    }
+    .text2{
+        font-size: 1.2rem;
+    }
+    .image-info-container{
+        bottom: 6rem;
+        left: 3rem;
+    }
+    .clothes-name, .clothes-name1, .clothes-name2{
+        font-size: 1.5rem;
+        margin-bottom: 0.6rem;
+    }
+    .clothes-info, .clothes-info2, .clothes-info3{
+        font-size: 1rem;
+    }
+
+    .clothes-info1{
+        font-size: 1rem;
+        margin-bottom: 0.8rem;
+    }
+    .sale-price{
+        font-size: 1.5rem;
+    }
+
+    .clothes-offer{
+        font-size: 0.8rem;
+    }
+
+    .double-info-container{
+        margin-bottom: 0.8rem;
+    }
+}
